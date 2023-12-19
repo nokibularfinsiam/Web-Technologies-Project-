@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/burger.css">
+</head>
+<body>
+    <div class="burger-container">
+        <h1 class="burger-title">Burger</h1>
+        <img class="burger-img" src="../image/burger.jpg" alt="Burger">
+        <div class="burger-details">
+            <p>Delicious beef burger with lettuce, cheese, and special sauce.</p>
+            <p class="price">Price: $8</p>
+        </div>
+        <form method="post" action="checkout.php">
+            <div class="quantity">
+                <label for="burger-quantity" class="label">Quantity:</label>
+                <input type="number" name="burger-quantity" value="0" min="1" max="10" class="quantity-input">
+                <input type="hidden" name="item-name" value="Burger">
+                <input type="submit" class="checkout-button" value="Add to Cart">
+            </div>
+        </form>
+        <a href="login.php"><button>Go back</button></a>
+    </div>
+</body>
+</html>

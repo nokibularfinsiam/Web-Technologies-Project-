@@ -1,0 +1,63 @@
+/* Reset some default styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar img {
+    height: 100px;
+}
+
+.logout-button {
+    background-color: #555;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 16px;
+    margin: 8px 4px;
+    cursor: pointer;
+}
+
+/* Receipt styles */
+h1, h2, h3 {
+    margin: 0;
+}
+
+/* Order Summary styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Order item styles */
+li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Final total amount styles */
+div[style="font-size: 18px; margin-top: 20px;"] {
+    font-size: 18px;
+    margin-top: 20px;
+}

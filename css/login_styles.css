@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+u1{
+    list-style-type: none;
+     margin: 0;
+      padding: 0;
+       background-color: black; 
+       overflow: hidden;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+div.food-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+div.food-box {
+    width: 250px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* styles.css */
+.food-link {
+    max-width: 100%;
+    height: 200px;
+}
+
+.food-row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-row1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-image {
+    height: 100px;
+}
+
+.welcome-section {
+    color: black;
+    padding: 20px;
+    background-color: grey;
+    background-image: url('../images/cover_image.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}
+
+
+.login-button {
+    background-color: #555;
+    border: none; color: white;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block; 
+    padding: 14px 16px; 
+    margin: 8px 4px; 
+    cursor: pointer;
+}

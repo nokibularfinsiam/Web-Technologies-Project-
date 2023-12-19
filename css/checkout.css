@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    overflow: hidden;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+ul.navbar img {
+    height: 100px;
+}
+
+a.logout-button {
+    background-color: #555;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 16px;
+    margin: 8px 4px;
+    cursor: pointer;
+}
+
+.checkout-container {
+    /* Your existing checkout container styles */
+}
+
+.order-summary {
+    /* Your existing order summary styles */
+}
+
+ul li {
+    /* Your existing list item styles */
+}
+
+.total-amount {
+    /* Your existing total amount styles */
+}
+
+fieldset {
+    /* Your existing fieldset styles */
+}
+
+/* Add any additional styles as needed */

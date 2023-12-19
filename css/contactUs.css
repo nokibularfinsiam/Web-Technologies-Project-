@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ff8c00;
+}
+
+form {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+}
+
+fieldset {
+    border: 2px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+legend {
+    padding: 0 10px;
+    color: #ff8c00;
+    font-weight: bold;
+}
+
+select, input[type=button] {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+input[type=button] {
+    background-color: #ff8c00;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type=button]:hover {
+    background-color: #e76f00;
+}
+
+#contactResult {
+    margin-top: 20px;
+}
+
+a {
+    color: #ff8c00;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e76f00;
+}
